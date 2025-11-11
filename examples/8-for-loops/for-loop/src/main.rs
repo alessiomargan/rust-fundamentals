@@ -1,8 +1,8 @@
 fn main() {
     // the for loop using a range. Note you can use also `(1..10)` or `(1..=10)`
-    // for i in 1..=10 {
-    //     println!("i = {}", i);
-    // }
+    for i in 1..=10 {
+        println!("i = {}", i);
+    }
 
     // for i in (1..=5).rev() {
     //     println!("{}", i);

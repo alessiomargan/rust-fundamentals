@@ -14,5 +14,8 @@ fn main() {
     } else {
         println!("Short");
     }
-
+    let a = 5;
+    let b = 10;
+    let max = if a > b { a } else { b };
+    println!("The maximum is {}", max);
 }
